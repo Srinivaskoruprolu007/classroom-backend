@@ -6,35 +6,25 @@
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "build": "tsc",
-<<<<<<< HEAD
-    "start": "node dist/index.js"
-=======
     "start": "node dist/index.js",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate"
->>>>>>> feature/database
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "dependencies": {
-<<<<<<< HEAD
-=======
     "@neondatabase/serverless": "^1.0.2",
     "dotenv": "^17.3.1",
     "drizzle-orm": "^0.45.1",
->>>>>>> feature/database
     "express": "^5.2.1"
   },
   "devDependencies": {
     "@types/express": "^5.0.6",
     "@types/node": "^25.3.0",
-<<<<<<< HEAD
-=======
     "@types/pg": "^8.16.0",
     "drizzle-kit": "^0.31.9",
->>>>>>> feature/database
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   }
