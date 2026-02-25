@@ -1,4 +1,5 @@
 import express from "express";
+import subjectRouter from "./routes/subjects";
 
 const app = express();
 
@@ -9,6 +10,8 @@ app.get("/", (req, res) => {
 });
 
 const PORT = process.env.PORT || 3000;
+
+app.use("/api/subjects", subjectRouter);
 
 app.listen(PORT, () => {
   console.log(`Server is running on port http://localhost:${PORT}`);
